@@ -237,6 +237,16 @@ p.p1{
     color: white;
     height: 30px;
 }
+@media screen and (max-width:890px) {
+    .h4cf3 .row.cf3r1 .col.cf3r2c1
+    .h4cf2r1 .col.cf3r2c2 .col.cf3r2c3
+    .btcf3{
+        overflow: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
+}
 b{
     background-color: lightsalmon;
     border-radius: 3px;
@@ -557,4 +567,18 @@ input{
 label{
     color: lightslategray;
     font: bold;
+}
+@media screen and(max-width: 860px) {
+    .container-fluid.cf1cf1
+    .container-fluid.cf2
+    .container-fluid.cf3
+    .container-fluid.cf4
+    .container-fluid.cf5
+    .container-fluid.cf6
+    .container-fluid.cf7{
+        overflow: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
 }
